@@ -1,0 +1,59 @@
+{
+  "name": "ai-cascade",
+  "version": "1.0.0",
+  "description": "Multi-provider LLM fallback cascade. Groq → Anthropic → OpenAI → Gemini → emergency fallback. Cost tracking, latency routing, budget enforcement. Always returns a response.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "llm",
+    "llm-fallback",
+    "ai-cascade",
+    "multi-provider",
+    "groq",
+    "anthropic",
+    "openai",
+    "gemini",
+    "llm-resilience",
+    "ai-reliability",
+    "llm-router",
+    "model-fallback",
+    "ai-infrastructure",
+    "cost-tracking",
+    "llm-cost",
+    "agent-infrastructure",
+    "ai-agents",
+    "mcp",
+    "cascade",
+    "failover"
+  ],
+  "author": "Brennan Zambo <brennanzambo@zambo.dev> (https://zambo.dev)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zambodotdev/ai-cascade.git"
+  },
+  "homepage": "https://zambo.dev/opensource",
+  "bugs": {
+    "url": "https://github.com/zambodotdev/ai-cascade/issues"
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
