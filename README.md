@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](package.json)
 
-Built by [Brennan Zambo](https://zambo.dev) — extracted from the production AI stack powering [zambo.dev](https://zambo.dev) (ZAMBOT, ZAMBRO, LeadSignal, ProvibeCode, 28 MCP tools).
+Built by [Brennan Zambo](https://zambo.dev) — extracted from the production AI stack powering [zambo.dev](https://zambo.dev) (ZAMBOT, ZAMBRO, LeadSignal, ProvibeCode; the Zambo MCP server runs 153 tools, 37 on the default surface).
 
 ---
 
@@ -200,7 +200,7 @@ interface CascadeResult {
 - [groq-cascade](https://github.com/zambodotdev/groq-cascade) — Groq-only version (simpler)
 - [mcp-shield](https://github.com/zambodotdev/mcp-shield) — security middleware for MCP servers
 - [agent-ledger](https://github.com/zambodotdev/agent-ledger) — track every LLM call and cost
-- [zambo.dev](https://zambo.dev) — 28 MCP tools all powered by ai-cascade in production
+- [zambo.dev](https://zambo.dev) — 153 MCP tools all powered by ai-cascade in production
 
 ---
 
